@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bc1ec84d6b2a4753a2d8dead2fbb1738 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_bc1ec84d6b2a4753a2d8dead2fbb1738" ></div>
+        
+</body>
+<script>    
+    
+            var map_bc1ec84d6b2a4753a2d8dead2fbb1738 = L.map(
+                "map_bc1ec84d6b2a4753a2d8dead2fbb1738",
+                {
+                    center: [48.7767982, -121.810997],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    title: "Mapbox Bright",
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d9514e3ac66c44b296e416bc7e8704c3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+            var circle_marker_46456308c6de454ba903893e14e3d6b3 = L.circleMarker(
+                [48.7767982, -121.810997],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": " red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_05e93f330f094f8a9c05f948e66868c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5e39af2e5124b838ba29b0a5aa075e9 = $(`<div id="html_f5e39af2e5124b838ba29b0a5aa075e9" style="width: 100.0%; height: 100.0%;">Baker, US-Washington, 3285.0 m</div>`)[0];
+            popup_05e93f330f094f8a9c05f948e66868c0.setContent(html_f5e39af2e5124b838ba29b0a5aa075e9);
+        
+
+        circle_marker_46456308c6de454ba903893e14e3d6b3.bindPopup(popup_05e93f330f094f8a9c05f948e66868c0)
+        ;
+
+        
+    
+    
+            var circle_marker_16a447157c5c4c368611d214689c598f = L.circleMarker(
+                [48.1118011, -121.1110001],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": " red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_8b814bc6a67847988eee758c67afdab8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c454451b5a114653902bb55bcc45b23d = $(`<div id="html_c454451b5a114653902bb55bcc45b23d" style="width: 100.0%; height: 100.0%;">Glacier Peak, US-Washington, 3213.0 m</div>`)[0];
+            popup_8b814bc6a67847988eee758c67afdab8.setContent(html_c454451b5a114653902bb55bcc45b23d);
+        
+
+        circle_marker_16a447157c5c4c368611d214689c598f.bindPopup(popup_8b814bc6a67847988eee758c67afdab8)
+        ;
+
+        
+    
+    
+            var circle_marker_f5fffd8e5465493fb4533cc52a4ed7e2 = L.circleMarker(
+                [46.8698006, -121.7509995],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": " red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_489854b2dd5b46c082cce38625605787 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56dae2a81cb1495c8182493c94ad4cdc = $(`<div id="html_56dae2a81cb1495c8182493c94ad4cdc" style="width: 100.0%; height: 100.0%;">Rainier, US-Washington, 4392.0 m</div>`)[0];
+            popup_489854b2dd5b46c082cce38625605787.setContent(html_56dae2a81cb1495c8182493c94ad4cdc);
+        
+
+        circle_marker_f5fffd8e5465493fb4533cc52a4ed7e2.bindPopup(popup_489854b2dd5b46c082cce38625605787)
+        ;
+
+        
+    
+    
+            var circle_marker_7d15b49f483a4b36a9b920e6cb4d97e4 = L.circleMarker(
+                [46.1997986, -122.1809998],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_8f808a74b36542198ec223665861ce46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b72e7b1931dd4570b4ea4896fac43b96 = $(`<div id="html_b72e7b1931dd4570b4ea4896fac43b96" style="width: 100.0%; height: 100.0%;">St. Helens, US-Washington, 2549.0 m</div>`)[0];
+            popup_8f808a74b36542198ec223665861ce46.setContent(html_b72e7b1931dd4570b4ea4896fac43b96);
+        
+
+        circle_marker_7d15b49f483a4b36a9b920e6cb4d97e4.bindPopup(popup_8f808a74b36542198ec223665861ce46)
+        ;
+
+        
+    
+    
+            var circle_marker_a5aa76bf99c74cde88a526c83320113e = L.circleMarker(
+                [46.20579910000001, -121.4909973],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": " red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_23a9baf1a6794b7aaadb20aaef673d72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_527d503ccd954284872d2aa7847a33dc = $(`<div id="html_527d503ccd954284872d2aa7847a33dc" style="width: 100.0%; height: 100.0%;">Adams, US-Washington, 3742.0 m</div>`)[0];
+            popup_23a9baf1a6794b7aaadb20aaef673d72.setContent(html_527d503ccd954284872d2aa7847a33dc);
+        
+
+        circle_marker_a5aa76bf99c74cde88a526c83320113e.bindPopup(popup_23a9baf1a6794b7aaadb20aaef673d72)
+        ;
+
+        
+    
+    
+            var circle_marker_3efe4af74e374b70b705a5e9b4426ca7 = L.circleMarker(
+                [45.8797989, -122.0810013],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_40a532738a5942b2895fd0c8d525629e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0398f662b48d4cb0b126d58b078f619b = $(`<div id="html_0398f662b48d4cb0b126d58b078f619b" style="width: 100.0%; height: 100.0%;">West Crater, US-Washington, 1329.0 m</div>`)[0];
+            popup_40a532738a5942b2895fd0c8d525629e.setContent(html_0398f662b48d4cb0b126d58b078f619b);
+        
+
+        circle_marker_3efe4af74e374b70b705a5e9b4426ca7.bindPopup(popup_40a532738a5942b2895fd0c8d525629e)
+        ;
+
+        
+    
+    
+            var circle_marker_2ad7363beeca4ed48f30edc8fb86bf67 = L.circleMarker(
+                [45.929798100000006, -121.8209991],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_4417bbbb50af4dfdbe0907181f93f451 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85253064531b4e5fa4babbbdc7956a02 = $(`<div id="html_85253064531b4e5fa4babbbdc7956a02" style="width: 100.0%; height: 100.0%;">Indian Heaven, US-Washington, 1806.0 m</div>`)[0];
+            popup_4417bbbb50af4dfdbe0907181f93f451.setContent(html_85253064531b4e5fa4babbbdc7956a02);
+        
+
+        circle_marker_2ad7363beeca4ed48f30edc8fb86bf67.bindPopup(popup_4417bbbb50af4dfdbe0907181f93f451)
+        ;
+
+        
+    
+    
+            var circle_marker_5bdceee55c7840ee854ae5fc8254e79b = L.circleMarker(
+                [45.3737984, -121.6910019],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": " red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_5a038f8d686e4bbcb24bdf061e8829aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c1d33d295c7426287486719a8bc88c5 = $(`<div id="html_3c1d33d295c7426287486719a8bc88c5" style="width: 100.0%; height: 100.0%;">Hood, US-Oregon, 3426.0 m</div>`)[0];
+            popup_5a038f8d686e4bbcb24bdf061e8829aa.setContent(html_3c1d33d295c7426287486719a8bc88c5);
+        
+
+        circle_marker_5bdceee55c7840ee854ae5fc8254e79b.bindPopup(popup_5a038f8d686e4bbcb24bdf061e8829aa)
+        ;
+
+        
+    
+    
+            var circle_marker_0467e55d147d4f2cb04693690409357d = L.circleMarker(
+                [44.691799200000005, -121.8010025],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": " red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_e8d1ed83c3d6416cbb94718a620e1f40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed8a087834dc4b28b2b4a641018e24f9 = $(`<div id="html_ed8a087834dc4b28b2b4a641018e24f9" style="width: 100.0%; height: 100.0%;">Jefferson, US-Oregon, 3199.0 m</div>`)[0];
+            popup_e8d1ed83c3d6416cbb94718a620e1f40.setContent(html_ed8a087834dc4b28b2b4a641018e24f9);
+        
+
+        circle_marker_0467e55d147d4f2cb04693690409357d.bindPopup(popup_e8d1ed83c3d6416cbb94718a620e1f40)
+        ;
+
+        
+    
+    
+            var circle_marker_34287e99fbb94804970005df6168a6ca = L.circleMarker(
+                [44.4197998, -121.7710037],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_91d4accdbaff483c9b19d5f6fc8c478f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c23203a0986c4adaa604a7e25650a909 = $(`<div id="html_c23203a0986c4adaa604a7e25650a909" style="width: 100.0%; height: 100.0%;">Blue Lake Crater, US-Oregon, 1230.0 m</div>`)[0];
+            popup_91d4accdbaff483c9b19d5f6fc8c478f.setContent(html_c23203a0986c4adaa604a7e25650a909);
+        
+
+        circle_marker_34287e99fbb94804970005df6168a6ca.bindPopup(popup_91d4accdbaff483c9b19d5f6fc8c478f)
+        ;
+
+        
+    
+    
+            var circle_marker_674d01b36ac24cd0bc6c26d804d1ae43 = L.circleMarker(
+                [44.3797989, -121.9309998],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_194098479452498e9e8291f58338ede8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d68cad87f48412b8d25dc68664057da = $(`<div id="html_8d68cad87f48412b8d25dc68664057da" style="width: 100.0%; height: 100.0%;">Sand Mountain Field, US-Oregon, 1664.0 m</div>`)[0];
+            popup_194098479452498e9e8291f58338ede8.setContent(html_8d68cad87f48412b8d25dc68664057da);
+        
+
+        circle_marker_674d01b36ac24cd0bc6c26d804d1ae43.bindPopup(popup_194098479452498e9e8291f58338ede8)
+        ;
+
+        
+    
+    
+            var circle_marker_40ffdf10d0614cc6aadeade8084b68a7 = L.circleMarker(
+                [44.331798600000006, -121.8310013],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_4322f03c37ff475e92318404bbc2a94a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8387438c259a4bf58794d898dc250aa1 = $(`<div id="html_8387438c259a4bf58794d898dc250aa1" style="width: 100.0%; height: 100.0%;">Washington, US-Oregon, 2376.0 m</div>`)[0];
+            popup_4322f03c37ff475e92318404bbc2a94a.setContent(html_8387438c259a4bf58794d898dc250aa1);
+        
+
+        circle_marker_40ffdf10d0614cc6aadeade8084b68a7.bindPopup(popup_4322f03c37ff475e92318404bbc2a94a)
+        ;
+
+        
+    
+    
+            var circle_marker_3692e5c7dd254ffb8da968df51c92cdc = L.circleMarker(
+                [44.2848015, -121.8410034],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_4f207482d38c4ed889df1335f4a70aa1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aec61523a472486199a4191f6f1d0c07 = $(`<div id="html_aec61523a472486199a4191f6f1d0c07" style="width: 100.0%; height: 100.0%;">Belknap, US-Oregon, 2095.0 m</div>`)[0];
+            popup_4f207482d38c4ed889df1335f4a70aa1.setContent(html_aec61523a472486199a4191f6f1d0c07);
+        
+
+        circle_marker_3692e5c7dd254ffb8da968df51c92cdc.bindPopup(popup_4f207482d38c4ed889df1335f4a70aa1)
+        ;
+
+        
+    
+    
+            var circle_marker_453dd3cb44134cb7b0b9e27e91895ff4 = L.circleMarker(
+                [44.1697998, -121.7710037],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": " red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_dcfcaf953d0b412a9931b0c967046f60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffbbf2a08a5f43d6af456cac5171f72d = $(`<div id="html_ffbbf2a08a5f43d6af456cac5171f72d" style="width: 100.0%; height: 100.0%;">North Sister Field, US-Oregon, 3074.0 m</div>`)[0];
+            popup_dcfcaf953d0b412a9931b0c967046f60.setContent(html_ffbbf2a08a5f43d6af456cac5171f72d);
+        
+
+        circle_marker_453dd3cb44134cb7b0b9e27e91895ff4.bindPopup(popup_dcfcaf953d0b412a9931b0c967046f60)
+        ;
+
+        
+    
+    
+            var circle_marker_35a7011ce4654bddb54641e869901b46 = L.circleMarker(
+                [44.099800099999996, -121.7710037],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": " red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_ea4131d1b9ea4df988309a6b75443546 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d26fdbe59da2400581b1c89871c2d3b2 = $(`<div id="html_d26fdbe59da2400581b1c89871c2d3b2" style="width: 100.0%; height: 100.0%;">South Sister, US-Oregon, 3157.0 m</div>`)[0];
+            popup_ea4131d1b9ea4df988309a6b75443546.setContent(html_d26fdbe59da2400581b1c89871c2d3b2);
+        
+
+        circle_marker_35a7011ce4654bddb54641e869901b46.bindPopup(popup_ea4131d1b9ea4df988309a6b75443546)
+        ;
+
+        
+    
+    
+            var circle_marker_b67290dd1851458390e2725b12d47ea5 = L.circleMarker(
+                [43.978801700000005, -121.6809998],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_46159a2cc39847548941e4ce332da5ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a5fdaef85ea489d8f11e04b749ea847 = $(`<div id="html_3a5fdaef85ea489d8f11e04b749ea847" style="width: 100.0%; height: 100.0%;">Bachelor, US-Oregon, 2763.0 m</div>`)[0];
+            popup_46159a2cc39847548941e4ce332da5ff.setContent(html_3a5fdaef85ea489d8f11e04b749ea847);
+        
+
+        circle_marker_b67290dd1851458390e2725b12d47ea5.bindPopup(popup_46159a2cc39847548941e4ce332da5ff)
+        ;
+
+        
+    
+    
+            var circle_marker_e4f467cf92844ff7819255cd1e13b9cc = L.circleMarker(
+                [43.7218018, -121.2210007],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_a17e8bd442db4c06b76a86d80087e6ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5b5ca75ab4644f4be3a71128b9dcf1c = $(`<div id="html_c5b5ca75ab4644f4be3a71128b9dcf1c" style="width: 100.0%; height: 100.0%;">Newberry Volcano, US-Oregon, 2434.0 m</div>`)[0];
+            popup_a17e8bd442db4c06b76a86d80087e6ea.setContent(html_c5b5ca75ab4644f4be3a71128b9dcf1c);
+        
+
+        circle_marker_e4f467cf92844ff7819255cd1e13b9cc.bindPopup(popup_a17e8bd442db4c06b76a86d80087e6ea)
+        ;
+
+        
+    
+    
+            var circle_marker_c4fea8af9131417794dbd8f63acb3cd9 = L.circleMarker(
+                [43.569801299999995, -121.8209991],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_4fbe6a8d05bc4bc6b41f5ea3ad613b2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4d992d63148497cadfce4c23180a1fc = $(`<div id="html_e4d992d63148497cadfce4c23180a1fc" style="width: 100.0%; height: 100.0%;">Davis Lake, US-Oregon, 2163.0 m</div>`)[0];
+            popup_4fbe6a8d05bc4bc6b41f5ea3ad613b2d.setContent(html_e4d992d63148497cadfce4c23180a1fc);
+        
+
+        circle_marker_c4fea8af9131417794dbd8f63acb3cd9.bindPopup(popup_4fbe6a8d05bc4bc6b41f5ea3ad613b2d)
+        ;
+
+        
+    
+    
+            var circle_marker_5d8f6d8c65fd49f89d36c51c8dcf0b67 = L.circleMarker(
+                [43.5119019, -120.8610001],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_e86c4a12d2e14f81ab484344f3b7ed38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d768cd40af2e4280b14cdbb05b0c6b24 = $(`<div id="html_d768cd40af2e4280b14cdbb05b0c6b24" style="width: 100.0%; height: 100.0%;">Devils Garden, US-Oregon, 1698.0 m</div>`)[0];
+            popup_e86c4a12d2e14f81ab484344f3b7ed38.setContent(html_d768cd40af2e4280b14cdbb05b0c6b24);
+        
+
+        circle_marker_5d8f6d8c65fd49f89d36c51c8dcf0b67.bindPopup(popup_e86c4a12d2e14f81ab484344f3b7ed38)
+        ;
+
+        
+    
+    
+            var circle_marker_4dfdfa8b59904c93b3e55ccf45335adb = L.circleMarker(
+                [43.240798999999996, -122.10099790000001],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_1b36ddecde0e4773a8634fe47f9d62ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b02f53147b440d781c1e65e175eba1a = $(`<div id="html_0b02f53147b440d781c1e65e175eba1a" style="width: 100.0%; height: 100.0%;">Cinnamon Butte, US-Oregon, 1956.0 m</div>`)[0];
+            popup_1b36ddecde0e4773a8634fe47f9d62ec.setContent(html_0b02f53147b440d781c1e65e175eba1a);
+        
+
+        circle_marker_4dfdfa8b59904c93b3e55ccf45335adb.bindPopup(popup_1b36ddecde0e4773a8634fe47f9d62ec)
+        ;
+
+        
+    
+    
+            var circle_marker_8eb9eead28684f63a2aab7ed79d961fc = L.circleMarker(
+                [43.471900899999994, -120.7509995],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_b979b3879ec44aac8b45d8994865bcf8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16d877b3fdc1484b816866c43ee6ad92 = $(`<div id="html_16d877b3fdc1484b816866c43ee6ad92" style="width: 100.0%; height: 100.0%;">Squaw Ridge Lava Field, US-Oregon, 1711.0 m</div>`)[0];
+            popup_b979b3879ec44aac8b45d8994865bcf8.setContent(html_16d877b3fdc1484b816866c43ee6ad92);
+        
+
+        circle_marker_8eb9eead28684f63a2aab7ed79d961fc.bindPopup(popup_b979b3879ec44aac8b45d8994865bcf8)
+        ;
+
+        
+    
+    
+            var circle_marker_581f1809a9c7421191f9187e02f34223 = L.circleMarker(
+                [43.3609009, -120.6610031],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_cdb981e9dc2040b88f2c9cca48b309bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a98d1f86e5544eb6951ac25e7c4c2534 = $(`<div id="html_a98d1f86e5544eb6951ac25e7c4c2534" style="width: 100.0%; height: 100.0%;">Four Craters Lava Field, US-Oregon, 1501.0 m</div>`)[0];
+            popup_cdb981e9dc2040b88f2c9cca48b309bb.setContent(html_a98d1f86e5544eb6951ac25e7c4c2534);
+        
+
+        circle_marker_581f1809a9c7421191f9187e02f34223.bindPopup(popup_cdb981e9dc2040b88f2c9cca48b309bb)
+        ;
+
+        
+    
+    
+            var circle_marker_3c2a2b236e504e88a1e8ffd3e8d988dc = L.circleMarker(
+                [42.9299011, -122.1210022],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_42b7627962aa4ae18ffebe6ba4a4fd3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0637f3f383a641efa45a1848234ec37a = $(`<div id="html_0637f3f383a641efa45a1848234ec37a" style="width: 100.0%; height: 100.0%;">Crater Lake, US-Oregon, 2487.0 m</div>`)[0];
+            popup_42b7627962aa4ae18ffebe6ba4a4fd3c.setContent(html_0637f3f383a641efa45a1848234ec37a);
+        
+
+        circle_marker_3c2a2b236e504e88a1e8ffd3e8d988dc.bindPopup(popup_42b7627962aa4ae18ffebe6ba4a4fd3c)
+        ;
+
+        
+    
+    
+            var circle_marker_8a6936c0b5884db3bf4063c594f72be9 = L.circleMarker(
+                [44.4299011, -110.6709976],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_4298d447b0c8445fbea8616d8089ac97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8919dbe1a994b3db393447bba462a7d = $(`<div id="html_a8919dbe1a994b3db393447bba462a7d" style="width: 100.0%; height: 100.0%;">Yellowstone, US-Wyoming, 2805.0 m</div>`)[0];
+            popup_4298d447b0c8445fbea8616d8089ac97.setContent(html_a8919dbe1a994b3db393447bba462a7d);
+        
+
+        circle_marker_8a6936c0b5884db3bf4063c594f72be9.bindPopup(popup_4298d447b0c8445fbea8616d8089ac97)
+        ;
+
+        
+    
+    
+            var circle_marker_629e571f27184451a9c718e9aa673c88 = L.circleMarker(
+                [43.0998993, -118.7509995],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_e1c205bab289446098bd97280c41125f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47f67ab13e5747cb907f81e3c0cae4c7 = $(`<div id="html_47f67ab13e5747cb907f81e3c0cae4c7" style="width: 100.0%; height: 100.0%;">Diamond Craters, US-Oregon, 1435.0 m</div>`)[0];
+            popup_e1c205bab289446098bd97280c41125f.setContent(html_47f67ab13e5747cb907f81e3c0cae4c7);
+        
+
+        circle_marker_629e571f27184451a9c718e9aa673c88.bindPopup(popup_e1c205bab289446098bd97280c41125f)
+        ;
+
+        
+    
+    
+            var circle_marker_fac52ea15fea4cf3b3dc65ed2cc54548 = L.circleMarker(
+                [43.1498985, -117.4710007],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_132396127bde4e73a10573931723b69f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a10148de2cc413fbb266c684bebf3de = $(`<div id="html_9a10148de2cc413fbb266c684bebf3de" style="width: 100.0%; height: 100.0%;">Jordan Craters, US-Oregon, 1473.0 m</div>`)[0];
+            popup_132396127bde4e73a10573931723b69f.setContent(html_9a10148de2cc413fbb266c684bebf3de);
+        
+
+        circle_marker_fac52ea15fea4cf3b3dc65ed2cc54548.bindPopup(popup_132396127bde4e73a10573931723b69f)
+        ;
+
+        
+    
+    
+            var circle_marker_420450577a5a47b1a65ec82d130c5946 = L.circleMarker(
+                [42.9999008, -117.8010025],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_19fb7cb842294dd1bcfcaa562578da41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35e27ea68b874c51b629d0202a046173 = $(`<div id="html_35e27ea68b874c51b629d0202a046173" style="width: 100.0%; height: 100.0%;">Saddle Butte, US-Oregon, 1700.0 m</div>`)[0];
+            popup_19fb7cb842294dd1bcfcaa562578da41.setContent(html_35e27ea68b874c51b629d0202a046173);
+        
+
+        circle_marker_420450577a5a47b1a65ec82d130c5946.bindPopup(popup_19fb7cb842294dd1bcfcaa562578da41)
+        ;
+
+        
+    
+    
+            var circle_marker_eeaa773d79f448bfad9d2b826431cbd8 = L.circleMarker(
+                [43.419899, -113.5009995],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_694a1116e7f3439882ae356e6a8bc77a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8faa0a8bccb249ccafb23b6766795b08 = $(`<div id="html_8faa0a8bccb249ccafb23b6766795b08" style="width: 100.0%; height: 100.0%;">Craters of the Moon, US-Idaho, 2005.0 m</div>`)[0];
+            popup_694a1116e7f3439882ae356e6a8bc77a.setContent(html_8faa0a8bccb249ccafb23b6766795b08);
+        
+
+        circle_marker_eeaa773d79f448bfad9d2b826431cbd8.bindPopup(popup_694a1116e7f3439882ae356e6a8bc77a)
+        ;
+
+        
+    
+    
+            var circle_marker_32d857e28acb471ca304792422966dc2 = L.circleMarker(
+                [43.4999008, -112.45099640000001],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_0216ccb9cb9c4d6f9cf0cc682afa746b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c5de299974e4fc6928d081fe8feae62 = $(`<div id="html_1c5de299974e4fc6928d081fe8feae62" style="width: 100.0%; height: 100.0%;">Hell's Half Acre, US-Idaho, 1631.0 m</div>`)[0];
+            popup_0216ccb9cb9c4d6f9cf0cc682afa746b.setContent(html_1c5de299974e4fc6928d081fe8feae62);
+        
+
+        circle_marker_32d857e28acb471ca304792422966dc2.bindPopup(popup_0216ccb9cb9c4d6f9cf0cc682afa746b)
+        ;
+
+        
+    
+    
+            var circle_marker_be192b1b189d413b8d09c39aac36f076 = L.circleMarker(
+                [43.1799011, -114.35099790000001],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_d94d49454a8f4d3197a6b9d6eea5da16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bae464f11953468686ffd554702a3a60 = $(`<div id="html_bae464f11953468686ffd554702a3a60" style="width: 100.0%; height: 100.0%;">Shoshone Lava Field, US-Idaho, 1478.0 m</div>`)[0];
+            popup_d94d49454a8f4d3197a6b9d6eea5da16.setContent(html_bae464f11953468686ffd554702a3a60);
+        
+
+        circle_marker_be192b1b189d413b8d09c39aac36f076.bindPopup(popup_d94d49454a8f4d3197a6b9d6eea5da16)
+        ;
+
+        
+    
+    
+            var circle_marker_7e9f0979b8e740b3af3aa29e0f67add4 = L.circleMarker(
+                [42.605899799999996, -117.5810013],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_6a6f79e2b16849dd8b281f65bd1d328d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c89cc9bcd1546e6a13939cc2dcc90a3 = $(`<div id="html_5c89cc9bcd1546e6a13939cc2dcc90a3" style="width: 100.0%; height: 100.0%;">Jackies Butte, US-Oregon, 1418.0 m</div>`)[0];
+            popup_6a6f79e2b16849dd8b281f65bd1d328d.setContent(html_5c89cc9bcd1546e6a13939cc2dcc90a3);
+        
+
+        circle_marker_7e9f0979b8e740b3af3aa29e0f67add4.bindPopup(popup_6a6f79e2b16849dd8b281f65bd1d328d)
+        ;
+
+        
+    
+    
+            var circle_marker_6dde0da9f9cc4e509ac1315a6471d7ed = L.circleMarker(
+                [41.579898799999995, -121.5709991],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_4c42a1e9b10b4e74a1b89c4243cdf3f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3cc1ee8bc3b94e0d8f600907e591b958 = $(`<div id="html_3cc1ee8bc3b94e0d8f600907e591b958" style="width: 100.0%; height: 100.0%;">Medicine Lake, US-California, 2412.0 m</div>`)[0];
+            popup_4c42a1e9b10b4e74a1b89c4243cdf3f4.setContent(html_3cc1ee8bc3b94e0d8f600907e591b958);
+        
+
+        circle_marker_6dde0da9f9cc4e509ac1315a6471d7ed.bindPopup(popup_4c42a1e9b10b4e74a1b89c4243cdf3f4)
+        ;
+
+        
+    
+    
+            var circle_marker_a6edc48bd9254a219876920a127f3a53 = L.circleMarker(
+                [42.8799019, -113.2210007],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_96306ea8ccb049fca05e9e7dee412f2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e600717f93b4a13b81f3ae805e8e984 = $(`<div id="html_2e600717f93b4a13b81f3ae805e8e984" style="width: 100.0%; height: 100.0%;">Wapi Lava Field, US-Idaho, 1604.0 m</div>`)[0];
+            popup_96306ea8ccb049fca05e9e7dee412f2f.setContent(html_2e600717f93b4a13b81f3ae805e8e984);
+        
+
+        circle_marker_a6edc48bd9254a219876920a127f3a53.bindPopup(popup_96306ea8ccb049fca05e9e7dee412f2f)
+        ;
+
+        
+    
+    
+            var circle_marker_023ef86cd7294522a7f7bc86acad21c0 = L.circleMarker(
+                [41.419899, -122.20099640000001],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": " red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_a6412a62fcf149fbb43b79be23901fe0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_476594e8b8db409c9a8ffcfb2376b9ca = $(`<div id="html_476594e8b8db409c9a8ffcfb2376b9ca" style="width: 100.0%; height: 100.0%;">Shasta, US-California, 4317.0 m</div>`)[0];
+            popup_a6412a62fcf149fbb43b79be23901fe0.setContent(html_476594e8b8db409c9a8ffcfb2376b9ca);
+        
+
+        circle_marker_023ef86cd7294522a7f7bc86acad21c0.bindPopup(popup_a6412a62fcf149fbb43b79be23901fe0)
+        ;
+
+        
+    
+    
+            var circle_marker_fa3948469f434d3099e02347e9e28987 = L.circleMarker(
+                [41.1778984, -121.4410019],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_a7366fef0a16446c8382ef496ad1adbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d27f03ef72b4a4495ec8978d9ab5af6 = $(`<div id="html_8d27f03ef72b4a4495ec8978d9ab5af6" style="width: 100.0%; height: 100.0%;">Brushy Butte, US-California, 1174.0 m</div>`)[0];
+            popup_a7366fef0a16446c8382ef496ad1adbb.setContent(html_8d27f03ef72b4a4495ec8978d9ab5af6);
+        
+
+        circle_marker_fa3948469f434d3099e02347e9e28987.bindPopup(popup_a7366fef0a16446c8382ef496ad1adbb)
+        ;
+
+        
+    
+    
+            var circle_marker_85ef7b5960444d278652c43edf598791 = L.circleMarker(
+                [40.954898799999995, -121.3610001],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_39f66645f9634f09bdfa27b379b8e1ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a32161f4787b4e6384f45b07808a1a5d = $(`<div id="html_a32161f4787b4e6384f45b07808a1a5d" style="width: 100.0%; height: 100.0%;">Big Cave, US-California, 1259.0 m</div>`)[0];
+            popup_39f66645f9634f09bdfa27b379b8e1ca.setContent(html_a32161f4787b4e6384f45b07808a1a5d);
+        
+
+        circle_marker_85ef7b5960444d278652c43edf598791.bindPopup(popup_39f66645f9634f09bdfa27b379b8e1ca)
+        ;
+
+        
+    
+    
+            var circle_marker_f9a708860a57460eaf9ae14a59905db0 = L.circleMarker(
+                [40.77989960000001, -121.60099790000001],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_47ebed637eaf4c6f8d7e8df88ba504ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3a4e4e75bdb42a9b85991346d97df4b = $(`<div id="html_b3a4e4e75bdb42a9b85991346d97df4b" style="width: 100.0%; height: 100.0%;">Twin Buttes, US-California, 1631.0 m</div>`)[0];
+            popup_47ebed637eaf4c6f8d7e8df88ba504ff.setContent(html_b3a4e4e75bdb42a9b85991346d97df4b);
+        
+
+        circle_marker_f9a708860a57460eaf9ae14a59905db0.bindPopup(popup_47ebed637eaf4c6f8d7e8df88ba504ff)
+        ;
+
+        
+    
+    
+            var circle_marker_97a247535ac24f6b8f784b266238b9d9 = L.circleMarker(
+                [40.6799011, -121.5510025],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_41a39d0773ba4a5ab0841eacca4b50fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8dae7219ad70445aae8fcfc9a67b01bb = $(`<div id="html_8dae7219ad70445aae8fcfc9a67b01bb" style="width: 100.0%; height: 100.0%;">Tumble Buttes, US-California, 2191.0 m</div>`)[0];
+            popup_41a39d0773ba4a5ab0841eacca4b50fd.setContent(html_8dae7219ad70445aae8fcfc9a67b01bb);
+        
+
+        circle_marker_97a247535ac24f6b8f784b266238b9d9.bindPopup(popup_41a39d0773ba4a5ab0841eacca4b50fd)
+        ;
+
+        
+    
+    
+            var circle_marker_a042ecb32d5f4a929fe80801acb92016 = L.circleMarker(
+                [40.6299019, -120.8310013],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_ab1b5710ede746b289517da2c5e3a273 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5de11dae79e4f28b248f8863876fc8d = $(`<div id="html_d5de11dae79e4f28b248f8863876fc8d" style="width: 100.0%; height: 100.0%;">Eagle Lake Field, US-California, 1652.0 m</div>`)[0];
+            popup_ab1b5710ede746b289517da2c5e3a273.setContent(html_d5de11dae79e4f28b248f8863876fc8d);
+        
+
+        circle_marker_a042ecb32d5f4a929fe80801acb92016.bindPopup(popup_ab1b5710ede746b289517da2c5e3a273)
+        ;
+
+        
+    
+    
+            var circle_marker_5e37f3be161e49c7849567a84932f494 = L.circleMarker(
+                [40.491901399999996, -121.5009995],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": " red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_d3cd1538ecf24ae69596260016fb9777 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4a03a2b656c40bdbcfc0109a081935c = $(`<div id="html_b4a03a2b656c40bdbcfc0109a081935c" style="width: 100.0%; height: 100.0%;">Lassen Volc Center, US-California, 3187.0 m</div>`)[0];
+            popup_d3cd1538ecf24ae69596260016fb9777.setContent(html_b4a03a2b656c40bdbcfc0109a081935c);
+        
+
+        circle_marker_5e37f3be161e49c7849567a84932f494.bindPopup(popup_d3cd1538ecf24ae69596260016fb9777)
+        ;
+
+        
+    
+    
+            var circle_marker_74f787bbe42744c0882ed66f3dc95feb = L.circleMarker(
+                [38.9698982, -122.7710037],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_0c1593c71d544fab9b64c3c80f66d01a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b99d2e76e9ec44209795bd296e94923f = $(`<div id="html_b99d2e76e9ec44209795bd296e94923f" style="width: 100.0%; height: 100.0%;">Clear Lake, US-California, 1439.0 m</div>`)[0];
+            popup_0c1593c71d544fab9b64c3c80f66d01a.setContent(html_b99d2e76e9ec44209795bd296e94923f);
+        
+
+        circle_marker_74f787bbe42744c0882ed66f3dc95feb.bindPopup(popup_0c1593c71d544fab9b64c3c80f66d01a)
+        ;
+
+        
+    
+    
+            var circle_marker_4704312d2f914ef9b5f92dce35cf6f1a = L.circleMarker(
+                [39.3749008, -119.7210007],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_3cedf454a704433c93884cda5d8b4d5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aff063c197344086b8ebc08d580fbec3 = $(`<div id="html_aff063c197344086b8ebc08d580fbec3" style="width: 100.0%; height: 100.0%;">Steamboat Springs, US-Nevada, 1415.0 m</div>`)[0];
+            popup_3cedf454a704433c93884cda5d8b4d5b.setContent(html_aff063c197344086b8ebc08d580fbec3);
+        
+
+        circle_marker_4704312d2f914ef9b5f92dce35cf6f1a.bindPopup(popup_3cedf454a704433c93884cda5d8b4d5b)
+        ;
+
+        
+    
+    
+            var circle_marker_a0c0eddd2eaf45709703e7c467aa2ef1 = L.circleMarker(
+                [39.6500015, -107.03099820000001],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_7e752c41b31341f0a17e57281f357f39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_184fe87cb4fd4989804d559900722aec = $(`<div id="html_184fe87cb4fd4989804d559900722aec" style="width: 100.0%; height: 100.0%;">Dotsero, US-Colorado, 2230.0 m</div>`)[0];
+            popup_7e752c41b31341f0a17e57281f357f39.setContent(html_184fe87cb4fd4989804d559900722aec);
+        
+
+        circle_marker_a0c0eddd2eaf45709703e7c467aa2ef1.bindPopup(popup_7e752c41b31341f0a17e57281f357f39)
+        ;
+
+        
+    
+    
+            var circle_marker_b8ddab2188164aaaa8e11176968dc004 = L.circleMarker(
+                [37.9999008, -119.03099820000001],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_1ecee3f17ec94e8aaad6917f6cdf37fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f472f79f71fe44abb5778a0d0ae795ba = $(`<div id="html_f472f79f71fe44abb5778a0d0ae795ba" style="width: 100.0%; height: 100.0%;">Mono Lake Volc Field, US-California, 2121.0 m</div>`)[0];
+            popup_1ecee3f17ec94e8aaad6917f6cdf37fe.setContent(html_f472f79f71fe44abb5778a0d0ae795ba);
+        
+
+        circle_marker_b8ddab2188164aaaa8e11176968dc004.bindPopup(popup_1ecee3f17ec94e8aaad6917f6cdf37fe)
+        ;
+
+        
+    
+    
+            var circle_marker_de24065d164547df96c51746d9ecc093 = L.circleMarker(
+                [38.970001200000006, -112.5009995],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_a90993f22eaf459dad4e025ac77a4e15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b8bd30926a946bbb281f5b741e84d70 = $(`<div id="html_5b8bd30926a946bbb281f5b741e84d70" style="width: 100.0%; height: 100.0%;">Black Rock Desert, US-Utah, 1800.0 m</div>`)[0];
+            popup_a90993f22eaf459dad4e025ac77a4e15.setContent(html_5b8bd30926a946bbb281f5b741e84d70);
+        
+
+        circle_marker_de24065d164547df96c51746d9ecc093.bindPopup(popup_a90993f22eaf459dad4e025ac77a4e15)
+        ;
+
+        
+    
+    
+            var circle_marker_83421c93aa544c8cb079c74b65596187 = L.circleMarker(
+                [37.8799019, -119.0009995],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_c13def4faa774eebba5460bdf220b1a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2061f43d7ee344e4895ef9d347e36764 = $(`<div id="html_2061f43d7ee344e4895ef9d347e36764" style="width: 100.0%; height: 100.0%;">Mono Craters, US-California, 2796.0 m</div>`)[0];
+            popup_c13def4faa774eebba5460bdf220b1a5.setContent(html_2061f43d7ee344e4895ef9d347e36764);
+        
+
+        circle_marker_83421c93aa544c8cb079c74b65596187.bindPopup(popup_c13def4faa774eebba5460bdf220b1a5)
+        ;
+
+        
+    
+    
+            var circle_marker_e4808eba6bf24478af5c4f4078fa5943 = L.circleMarker(
+                [37.6918983, -119.0210037],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_b0979e84432a491598fdd2998a649561 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17db949585d6492fa1f93c9cd63396de = $(`<div id="html_17db949585d6492fa1f93c9cd63396de" style="width: 100.0%; height: 100.0%;">Inyo Craters, US-California, 2629.0 m</div>`)[0];
+            popup_b0979e84432a491598fdd2998a649561.setContent(html_17db949585d6492fa1f93c9cd63396de);
+        
+
+        circle_marker_e4808eba6bf24478af5c4f4078fa5943.bindPopup(popup_b0979e84432a491598fdd2998a649561)
+        ;
+
+        
+    
+    
+            var circle_marker_7289f8f8fd4644f8b36df141679b5f2c = L.circleMarker(
+                [37.6999016, -118.8710022],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": " red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_e124a495a07f4724956485e634dead27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01a989c25d524d8ea4ea2af04364510e = $(`<div id="html_01a989c25d524d8ea4ea2af04364510e" style="width: 100.0%; height: 100.0%;">Long Valley, US-California, 3390.0 m</div>`)[0];
+            popup_e124a495a07f4724956485e634dead27.setContent(html_01a989c25d524d8ea4ea2af04364510e);
+        
+
+        circle_marker_7289f8f8fd4644f8b36df141679b5f2c.bindPopup(popup_e124a495a07f4724956485e634dead27)
+        ;
+
+        
+    
+    
+            var circle_marker_d7729de5b22c48b18e311485a2aa2788 = L.circleMarker(
+                [37.579898799999995, -119.0510025],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_8317c1068274442bbe8c29495a0238b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad73313ef79c47b7b969005750de10db = $(`<div id="html_ad73313ef79c47b7b969005750de10db" style="width: 100.0%; height: 100.0%;">Red Cones, US-California, 2748.0 m</div>`)[0];
+            popup_8317c1068274442bbe8c29495a0238b9.setContent(html_ad73313ef79c47b7b969005750de10db);
+        
+
+        circle_marker_d7729de5b22c48b18e311485a2aa2788.bindPopup(popup_8317c1068274442bbe8c29495a0238b9)
+        ;
+
+        
+    
+    
+            var circle_marker_8d0a926190394a2dae96e4e73bdb9646 = L.circleMarker(
+                [37.0199013, -117.45099640000001],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_709fe47ec4814c5287392aed2a5b83ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3ad53563e504005a4417809da4b06e7 = $(`<div id="html_a3ad53563e504005a4417809da4b06e7" style="width: 100.0%; height: 100.0%;">Ubehebe Craters, US-California, 752.0 m</div>`)[0];
+            popup_709fe47ec4814c5287392aed2a5b83ed.setContent(html_a3ad53563e504005a4417809da4b06e7);
+        
+
+        circle_marker_8d0a926190394a2dae96e4e73bdb9646.bindPopup(popup_709fe47ec4814c5287392aed2a5b83ed)
+        ;
+
+        
+    
+    
+            var circle_marker_25808d109e7b43bd9497b4b0e7281f07 = L.circleMarker(
+                [37.5800018, -112.6709976],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_aab70e61f7c24a709ddaf795e65b338a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61e84de75a9f483cbe71d45a2ac4db05 = $(`<div id="html_61e84de75a9f483cbe71d45a2ac4db05" style="width: 100.0%; height: 100.0%;">Markagunt Plateau, US-Utah, 2840.0 m</div>`)[0];
+            popup_aab70e61f7c24a709ddaf795e65b338a.setContent(html_61e84de75a9f483cbe71d45a2ac4db05);
+        
+
+        circle_marker_25808d109e7b43bd9497b4b0e7281f07.bindPopup(popup_aab70e61f7c24a709ddaf795e65b338a)
+        ;
+
+        
+    
+    
+            var circle_marker_5866184e44784d7aa1a2781ba036af81 = L.circleMarker(
+                [37.257, -113.6210022],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_b398de755c9f4906b0e59599510f4530 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_070445728f1b4fd78f8279aec5695003 = $(`<div id="html_070445728f1b4fd78f8279aec5695003" style="width: 100.0%; height: 100.0%;">Santa Clara, US-Utah, 1465.0 m</div>`)[0];
+            popup_b398de755c9f4906b0e59599510f4530.setContent(html_070445728f1b4fd78f8279aec5695003);
+        
+
+        circle_marker_5866184e44784d7aa1a2781ba036af81.bindPopup(popup_b398de755c9f4906b0e59599510f4530)
+        ;
+
+        
+    
+    
+            var circle_marker_36162b7e7f0a41f6ad7ee883eff6e279 = L.circleMarker(
+                [37.32799910000001, -112.40100100000001],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_5cf4da87cc1f41abaa8b08d3ba32934b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34448fa7a58f451fb92e481426194da1 = $(`<div id="html_34448fa7a58f451fb92e481426194da1" style="width: 100.0%; height: 100.0%;">Bald Knoll, US-Utah, 2135.0 m</div>`)[0];
+            popup_5cf4da87cc1f41abaa8b08d3ba32934b.setContent(html_34448fa7a58f451fb92e481426194da1);
+        
+
+        circle_marker_36162b7e7f0a41f6ad7ee883eff6e279.bindPopup(popup_5cf4da87cc1f41abaa8b08d3ba32934b)
+        ;
+
+        
+    
+    
+            var circle_marker_d0c8749e0be34abcbd00088244323a47 = L.circleMarker(
+                [36.3578987, -118.3209991],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_2b88e03fe9a546b8b1ba6807d6a8f95c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54815a07d225407ea239f558141e64ef = $(`<div id="html_54815a07d225407ea239f558141e64ef" style="width: 100.0%; height: 100.0%;">Golden Trout Creek, US-California, 2886.0 m</div>`)[0];
+            popup_2b88e03fe9a546b8b1ba6807d6a8f95c.setContent(html_54815a07d225407ea239f558141e64ef);
+        
+
+        circle_marker_d0c8749e0be34abcbd00088244323a47.bindPopup(popup_2b88e03fe9a546b8b1ba6807d6a8f95c)
+        ;
+
+        
+    
+    
+            var circle_marker_578155be1674445aa884c23e219cae8b = L.circleMarker(
+                [36.02989960000001, -117.8209991],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_65f6f70e800e490c92d2e8a8f9fe8d4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c51e2b619b94a6f944d1bfd87a5b8a7 = $(`<div id="html_4c51e2b619b94a6f944d1bfd87a5b8a7" style="width: 100.0%; height: 100.0%;">Coso Volc Field, US-California, 2400.0 m</div>`)[0];
+            popup_65f6f70e800e490c92d2e8a8f9fe8d4f.setContent(html_4c51e2b619b94a6f944d1bfd87a5b8a7);
+        
+
+        circle_marker_578155be1674445aa884c23e219cae8b.bindPopup(popup_65f6f70e800e490c92d2e8a8f9fe8d4f)
+        ;
+
+        
+    
+    
+            var circle_marker_1a43e2ebd3834a7e9c4235f3af2fb756 = L.circleMarker(
+                [36.3800011, -113.1309967],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_6584da7d88bb4d2a98fd3de68d87114f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3000857795d34a57b05acebec341febb = $(`<div id="html_3000857795d34a57b05acebec341febb" style="width: 100.0%; height: 100.0%;">Uinkaret Field, US-Arizona, 1555.0 m</div>`)[0];
+            popup_6584da7d88bb4d2a98fd3de68d87114f.setContent(html_3000857795d34a57b05acebec341febb);
+        
+
+        circle_marker_1a43e2ebd3834a7e9c4235f3af2fb756.bindPopup(popup_6584da7d88bb4d2a98fd3de68d87114f)
+        ;
+
+        
+    
+    
+            var circle_marker_e1ee7ab23fe74600bf094b348439e29a = L.circleMarker(
+                [34.75, -116.6210022],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_f35bf786d088435cbcb35b114736bd22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80d7443fc6c94896b2df68ae389938ba = $(`<div id="html_80d7443fc6c94896b2df68ae389938ba" style="width: 100.0%; height: 100.0%;">Lavic Lake, US-California, 1495.0 m</div>`)[0];
+            popup_f35bf786d088435cbcb35b114736bd22.setContent(html_80d7443fc6c94896b2df68ae389938ba);
+        
+
+        circle_marker_e1ee7ab23fe74600bf094b348439e29a.bindPopup(popup_f35bf786d088435cbcb35b114736bd22)
+        ;
+
+        
+    
+    
+            var circle_marker_a393aced943346c980938ae0bd3f83d2 = L.circleMarker(
+                [35.8699989, -106.5709991],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": " red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_1461ba6c03d44309a10b6a5d56e53895 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_535d220c4b0248838b6a24a0a2bd4fd4 = $(`<div id="html_535d220c4b0248838b6a24a0a2bd4fd4" style="width: 100.0%; height: 100.0%;">Valles Caldera, US-New Mexico, 3430.0 m</div>`)[0];
+            popup_1461ba6c03d44309a10b6a5d56e53895.setContent(html_535d220c4b0248838b6a24a0a2bd4fd4);
+        
+
+        circle_marker_a393aced943346c980938ae0bd3f83d2.bindPopup(popup_1461ba6c03d44309a10b6a5d56e53895)
+        ;
+
+        
+    
+    
+            var circle_marker_781213a2174a4b098d50d88a12fbc737 = L.circleMarker(
+                [35.3699989, -111.5009995],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_ae3cb0e3dc974c4f86082320ca1f46b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c49e54e477474b70942a26b294761abc = $(`<div id="html_c49e54e477474b70942a26b294761abc" style="width: 100.0%; height: 100.0%;">Sunset Crater, US-Arizona, 2447.0 m</div>`)[0];
+            popup_ae3cb0e3dc974c4f86082320ca1f46b9.setContent(html_c49e54e477474b70942a26b294761abc);
+        
+
+        circle_marker_781213a2174a4b098d50d88a12fbc737.bindPopup(popup_ae3cb0e3dc974c4f86082320ca1f46b9)
+        ;
+
+        
+    
+    
+            var circle_marker_77a8178fde354a4798b24a660147c3c3 = L.circleMarker(
+                [34.5499992, -115.78099820000001],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_7373d213d4864d2dae74aaf8e1c2a9be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40adda2a83f444c694e8f2c026d9ec86 = $(`<div id="html_40adda2a83f444c694e8f2c026d9ec86" style="width: 100.0%; height: 100.0%;">Amboy, US-California, 288.0 m</div>`)[0];
+            popup_7373d213d4864d2dae74aaf8e1c2a9be.setContent(html_40adda2a83f444c694e8f2c026d9ec86);
+        
+
+        circle_marker_77a8178fde354a4798b24a660147c3c3.bindPopup(popup_7373d213d4864d2dae74aaf8e1c2a9be)
+        ;
+
+        
+    
+    
+            var circle_marker_c8c2bbc6da66439eb459a50a32009b0a = L.circleMarker(
+                [34.7999992, -108.0009995],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_93a3772775bd4121a9949c94da361303 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18af3d8c7cb34bb4a455df204ca59345 = $(`<div id="html_18af3d8c7cb34bb4a455df204ca59345" style="width: 100.0%; height: 100.0%;">Zuni-Bandera, US-New Mexico, 2550.0 m</div>`)[0];
+            popup_93a3772775bd4121a9949c94da361303.setContent(html_18af3d8c7cb34bb4a455df204ca59345);
+        
+
+        circle_marker_c8c2bbc6da66439eb459a50a32009b0a.bindPopup(popup_93a3772775bd4121a9949c94da361303)
+        ;
+
+        
+    
+    
+            var circle_marker_2f7f92c3b79a433f8085743e67eff495 = L.circleMarker(
+                [33.7801018, -105.9309998],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bc1ec84d6b2a4753a2d8dead2fbb1738);
+        
+    
+        var popup_fe343a1ada3449418704859501e03f79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2f31508b2ce41eabb2f7f220abbcd04 = $(`<div id="html_d2f31508b2ce41eabb2f7f220abbcd04" style="width: 100.0%; height: 100.0%;">Carrizozo, US-New Mexico, 1731.0 m</div>`)[0];
+            popup_fe343a1ada3449418704859501e03f79.setContent(html_d2f31508b2ce41eabb2f7f220abbcd04);
+        
+
+        circle_marker_2f7f92c3b79a433f8085743e67eff495.bindPopup(popup_fe343a1ada3449418704859501e03f79)
+        ;
+
+        
+    
+</script>
