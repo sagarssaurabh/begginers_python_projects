@@ -1,0 +1,4 @@
+Step1: create account on heroku
+Step2: download heroku toolbelt and then go into folder where our python script is saved through terminal and then login into heroku using command :  heroku login
+
+
